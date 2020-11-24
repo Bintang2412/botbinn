@@ -13,11 +13,11 @@ const tambahan = require("./lib/tambahan.js")
 const donasi = require("./lib/donasi.js");
 const info = require("./lib/info.js");
 /////////////////
-const BotName = 'REUZ BOT☄'; 
-const instagram = 'https://instagram.com/reuz.id'; 
-const telegram = 'https://t.me/reuzzz'; 
+const BotName = 'BINN BOT☄'; 
+const instagram = 'https://www.instagram.com/bintang.mtrm24'; 
+const telegram = 'https://t.me/BINN24'; 
 const kapanbotaktif = 'KETIKA HANYA DIAKTIFKAN'; 
-const youtube = 'https://www.youtube.com/c/reuz_id';
+const youtube = 'https://www.youtube.com/channel/UC3_-1Ck1krIV1zljn-4Ql9A';
 //const grupch1 = 'belum ada grup'; 
 //const grupch2 = 'belum ada grup' ; 
 const
@@ -68,7 +68,7 @@ conn.on('user-presence-update', json => console.log(json.id + ' presence is => '
 conn.on('message-status-update', json =>
 {
    const participant = json.participant ? ' (' + json.participant + ')' : '' // participant exists when the message is from a group
-   console.log(`[ ${moment().format("HH:mm:ss")} ] => bot by ig:@reuz.id`)
+   console.log(`[ ${moment().format("HH:mm:ss")} ] => bot by ig:@bintang.mtrm24`)
 })
 
 conn.on('message-new', async(m) =>
